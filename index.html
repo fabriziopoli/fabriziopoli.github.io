@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/language.js"></script>
 </head>
 <body>
     <header class="main-header">
         <div class="main-header_logo">
-            <img>
         </div>
         <nav class="main-nav">
             <ul class="main-nav_items">
@@ -26,8 +26,8 @@
                 </svg>
             </button>
             <div class="language-dropdown">
-                <a class="de">Deutsch</a>
-                <a class="en">English</a>
+                <a class="de" onclick="setLanguage('de')">Deutsch</a>
+                <a class="en" onclick="setLanguage('en')">English</a>
             </div>
         </div>
     </header>

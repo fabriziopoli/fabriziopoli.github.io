@@ -11,8 +11,8 @@ body {
 
 .main-header {
     width: 100%;
+    height: 74px;
     position: fixed;
-    background: #8C7B6C;
     padding: 8px 16px;
     position: fixed;
     z-index: 60;
@@ -20,3 +20,47 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.main-nav {
+    display: inline-block;
+}
+
+.main-nav_items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav_item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-header_language button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    align-self: center;
+    padding: 0;
+  }
+
+.main-header_language .language-dropdown {
+    display: none;
+    position: absolute;
+    background: var(--blink-white);
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 6px #00000029;
+    z-index: 1;
+    border-radius: 3px;
+    margin-left: -36px;
+  }
+
+  .main-header_language .language-dropdown a {
+    font-family: var(--default-font);
+    font-size: 18px;
+    color: var(--blink-dark-grey);
+    padding: 3px 15px;
+    display: block;
+    text-align: center;
+  }
