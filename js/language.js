@@ -12,7 +12,3 @@ function getLanguage() {
 function setLanguage(lang) {
     localStorage.setItem('language', lang);
 }
-
-$(document).ready(function () {
-    $('#div1').text(language.date);
-});
