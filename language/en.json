@@ -1,6 +1,6 @@
 { 
-    "date": "Date", 
-    "save": "Save",
-    "cancel": "Cancel",
+    "home": "Home", 
+    "about": "About me",
+    "contacts": "Contacts",
     "salutation": "Hello"
 }
