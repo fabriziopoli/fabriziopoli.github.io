@@ -31,6 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
 }
 
 /* Navigation */
@@ -53,8 +54,8 @@ body {
 /* Language button */
 
 div.main-header_language {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     align-self: center;
     margin-right: 30px;
   }
@@ -102,10 +103,14 @@ div.main-header_language {
 }
 
 .main-header_language .language-dropdown a {
-    font-family: var(--default-font);
+    cursor: pointer;
     font-size: 18px;
-    color: var(--blink-dark-grey);
+    color: black;
     padding: 3px 15px;
     display: block;
     text-align: center;
+}
+
+.main-header_language .language-dropdown a:hover {
+    background-color: darkgray;
 }

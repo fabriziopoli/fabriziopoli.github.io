@@ -16,4 +16,5 @@ function getLanguage() {
 
 function setLanguage(lang) {
     localStorage.setItem('language', lang);
+    location.reload();
 }
