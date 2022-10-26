@@ -1,6 +1,7 @@
 { 
     "home": "Start", 
     "about": "Über mich",
-    "contacts": "Kontakte",
-    "salutation": "Hallo"
+    "hobbies": "Hobbys",
+    "career": "Karriere",
+    "contacts": "Kontakte"
 }

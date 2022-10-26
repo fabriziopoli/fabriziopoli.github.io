@@ -1,6 +1,7 @@
 { 
     "home": "Home", 
     "about": "About me",
-    "contacts": "Contacts",
-    "salutation": "Hello"
+    "hobbies": "Hobbies",
+    "career": "Career",
+    "contacts": "Contacts"
 }
