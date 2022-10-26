@@ -1,9 +1,9 @@
 $(document).ready(function () {
     getLanguage();
     
-    $('#home').text(language.home);
+    /*$('#home').text(language.home);
     $('#about').text(language.about);
-    $('#contacts').text(language.contacts);
+    $('#contacts').text(language.contacts);*/
 });
 
 var language;
